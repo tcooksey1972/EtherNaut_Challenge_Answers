@@ -2,7 +2,7 @@
 
 Challenge URL = https://ethernaut.zeppelin.solutions/level/0xdf51a9e8ce57e7787e4a27dd19880fd7106b9a5c
 
-Video Walkthrough = https://youtube.com/video/eLUtQu6g6VY/edit
+Video Walkthrough = https://youtu.be/eLUtQu6g6VY
 
 # problem
 
