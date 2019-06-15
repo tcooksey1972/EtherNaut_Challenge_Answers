@@ -1,13 +1,13 @@
 # Level 1 Fallback
 
-Challenge URL =https://ethernaut.zeppelin.solutions/level/0x234094aac85628444a82dae0396c680974260be7
+Challenge URL = https://ethernaut.zeppelin.solutions/level/0x234094aac85628444a82dae0396c680974260be7
 
 # Fallback Function Background Info 
 Defined
 Each contract may have a single function that has been unnamed.  This is considered to be the fallback function.  
 
 Constraints
-It cannot have any arguements nor return anything.
+It cannot have any arguements nor return anything.  You can use msg.data to retrieve payload supplied with the call.
 To Recieve ether it must be marked as "payable" 
 If no "payable" function, contract cant recieve ETH via regular transactions
 Fallback function should cost no more than 2300 gas.  Make them as cheap as possible, test & verify cost.
@@ -36,7 +36,7 @@ or
 # Solution
 
 1.  Send 1 wei to 'function contribute() public payable'
-contract.contribute({ value: 1 })
+await contract.contribute({ value: 1 })
 await contract.getContribution().toString()
 2.  Send 1 wei to the fallback function 'await contract.sendTransaction({ value: 1 })
 3.  Verify that you are the owner await contract.owner()

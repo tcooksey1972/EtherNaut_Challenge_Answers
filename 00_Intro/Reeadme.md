@@ -2,8 +2,6 @@
 
 Challenge URL = https://ethernaut.zeppelin.solutions/level/0xdf51a9e8ce57e7787e4a27dd19880fd7106b9a5c
 
-Video Walkthrough = https://youtu.be/eLUtQu6g6VY
-
 # problem
 
 The intro walks through the basics of funding wallet, deploying and intereacting with the smart contract using the browswer console.  
